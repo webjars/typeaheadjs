@@ -9,7 +9,7 @@
     </parent>
     
     <groupId>org.webjars</groupId>
-    <artifactId>typeahead.js</artifactId>
+    <artifactId>typeaheadjs</artifactId>
     <name>typeahead.js</name>
     <version>0.9.3-SNAPSHOT</version>
     <packaging>jar</packaging>
@@ -25,9 +25,9 @@
     </licenses>
 
     <scm>
-        <url>http://github.com/webjars/typeahead.js</url>
-        <connection>scm:git:https://github.com/webjars/typeahead.js.git</connection>
-        <developerConnection>scm:git:https://github.com/webjars/typeahead.js.git</developerConnection>
+        <url>http://github.com/webjars/typeaheadjs</url>
+        <connection>scm:git:https://github.com/webjars/typeaheadjs.git</connection>
+        <developerConnection>scm:git:https://github.com/webjars/typeaheadjs.git</developerConnection>
         <tag>HEAD</tag>
     </scm>
 
