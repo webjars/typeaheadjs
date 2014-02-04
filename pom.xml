@@ -11,7 +11,7 @@
     <groupId>org.webjars</groupId>
     <artifactId>typeaheadjs</artifactId>
     <name>typeahead.js</name>
-    <version>0.9.4-SNAPSHOT</version>
+    <version>0.10.0-SNAPSHOT</version>
     <packaging>jar</packaging>
     <description>WebJar for typeahead.js</description>
     <url>http://webjars.org</url>
@@ -41,7 +41,7 @@
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <upstreamVersion>0.9.3</upstreamVersion>
+        <upstreamVersion>0.10.0</upstreamVersion>
         <sourceUrl>https://github.com/twitter/typeahead.js/archive</sourceUrl>
         <destDir>${project.build.outputDirectory}/META-INF/resources/webjars/${project.artifactId}/${upstreamVersion}</destDir>
     </properties>
