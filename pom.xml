@@ -47,10 +47,12 @@
         <requirejs>
             {
                 "paths": {
-                    "typeaheadjs": "typeahead.jquery"
+                    "typeaheadjs": "typeahead.jquery",
+                    "typeaheadjs-bundle": "typeahead.bundle"
                 },
                 "shim": {
-                    "typeaheadjs": ["jquery"]
+                    "typeaheadjs": ["jquery"],
+                    "typeaheadjs-bundle": ["jquery"]
                 }
             }
         </requirejs>
