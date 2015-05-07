@@ -11,7 +11,7 @@
     <groupId>org.webjars</groupId>
     <artifactId>typeaheadjs</artifactId>
     <name>typeahead.js</name>
-    <version>0.11.1-SNAPSHOT</version>
+    <version>0.11.1</version>
     <packaging>jar</packaging>
     <description>WebJar for typeahead.js</description>
     <url>http://webjars.org</url>
@@ -28,7 +28,7 @@
         <url>http://github.com/webjars/typeaheadjs</url>
         <connection>scm:git:https://github.com/webjars/typeaheadjs.git</connection>
         <developerConnection>scm:git:https://github.com/webjars/typeaheadjs.git</developerConnection>
-        <tag>HEAD</tag>
+        <tag>typeaheadjs-0.11.1</tag>
     </scm>
 
     <developers>
@@ -94,11 +94,11 @@
                         <goals><goal>run</goal></goals>
                         <configuration>
                             <target>
-                                <echo message="unzip archive"/>
-                                <unzip src="${project.build.directory}/${project.artifactId}.zip" dest="${project.build.directory}"/>
-                                <echo message="moving resources"/>
+                                <echo message="unzip archive" />
+                                <unzip src="${project.build.directory}/${project.artifactId}.zip" dest="${project.build.directory}" />
+                                <echo message="moving resources" />
                                 <move todir="${destDir}">
-                                    <fileset dir="${project.build.directory}/typeahead.js-${upstreamVersion}/dist"/>
+                                    <fileset dir="${project.build.directory}/typeahead.js-${upstreamVersion}/dist" />
 <!--                                     <fileset dir="${project.build.directory}/typeahead-${upstreamVersion}/" includes="less/" /> -->
                                 </move>
                             </target>
